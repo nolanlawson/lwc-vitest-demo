@@ -7,5 +7,6 @@ describe('basic test suite', () => {
     document.body.appendChild(button)
     await Promise.resolve()
     expect(button.shadowRoot.querySelector('button').textContent).toBe('I am a button!')
+    expect(button).toMatchSnapshot()
   })
 })

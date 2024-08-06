@@ -1,0 +1,3 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`basic test suite > renders a button on the client side 1`] = `<x-button />`;
