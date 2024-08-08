@@ -5,7 +5,9 @@ export default class extends LightningElement {
 
   ssr = import.meta.env.SSR
 
+  clicked = false
+
   onClick() {
-    console.log('clicked')
+    this.clicked = true
   }
 }
