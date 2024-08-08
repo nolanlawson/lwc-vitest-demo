@@ -8,6 +8,7 @@
     "test": "vitest"
   },
   "dependencies": {
+    "@lwc/jest-serializer": "^16.1.0",
     "jsdom": "^24.1.1",
     "lwc": "^7.2.1",
     "vitest": "^2.0.5"

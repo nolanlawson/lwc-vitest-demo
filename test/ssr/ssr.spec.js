@@ -1,4 +1,4 @@
-import XButton from 'x/button?ssr'
+import XButton from 'x/button'
 import { renderComponent } from '@lwc/engine-server'
 
 describe('basic ssr test suite', () => {

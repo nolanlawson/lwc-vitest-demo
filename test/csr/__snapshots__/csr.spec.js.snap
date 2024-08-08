@@ -1,3 +1,18 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`basic test suite > renders a button on the client side 1`] = `<x-button />`;
+exports[`basic test suite > renders a button on the client side 1`] = `
+<x-button>
+  #shadow-root(open)
+    <span>
+      <code>
+        Is this SSR?
+      </code>
+      : false
+    </span>
+    <button
+      class="pretty"
+    >
+      I am a button!
+    </button>
+</x-button>
+`;
