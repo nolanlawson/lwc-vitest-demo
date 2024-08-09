@@ -5,6 +5,7 @@ export default mergeConfig(
   baseConfig,
   {
     test: {
+      snapshotSerializers: ['jest-serializer-html'],
       alias: {
         'lwc': '@lwc/engine-server'
       }

@@ -1,3 +1,23 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`basic ssr test suite > renders a button on the server side 1`] = `"<x-button><template shadowrootmode="open"><span><code>Is this SSR?</code>: false</span><span><code>Was I clicked?</code>: false</span><button class="pretty">I am a button!</button></template></x-button>"`;
+exports[`basic ssr test suite > renders a button on the server side 1`] = `
+<x-button>
+  <template shadowrootmode="open">
+    <span>
+      <code>
+        Is this SSR?
+      </code>
+      : false
+    </span>
+    <span>
+      <code>
+        Was I clicked?
+      </code>
+      : false
+    </span>
+    <button class="pretty">
+      I am a button!
+    </button>
+  </template>
+</x-button>
+`;

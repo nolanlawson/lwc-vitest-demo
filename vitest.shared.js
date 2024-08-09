@@ -5,10 +5,10 @@ import lwcRollupPlugin from 'lwc/rollup-plugin'
 export default defineConfig({
   plugins: [
     lwcRollupPlugin({
-      "rootDir": path.resolve(__dirname),
-      "modules": [
+      rootDir: path.resolve(__dirname),
+      modules: [
         {
-          "dir": path.resolve(__dirname, "src/modules")
+          dir: path.resolve(__dirname, 'src/modules')
         }
       ]
     })

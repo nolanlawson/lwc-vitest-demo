@@ -5,7 +5,7 @@ export default mergeConfig(
   baseConfig,
   {
     test: {
-      snapshotSerializers: ['@lwc/jest-serializer']
+      snapshotSerializers: ['@quatico/dom-serializer/bin/serializer']
     }
   }
 );
