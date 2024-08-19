@@ -14,5 +14,7 @@
     "jsdom": "^24.1.1",
     "lwc": "^7.2.1",
     "vitest": "^2.0.5"
-  }
+  },
+  "license": "MIT",
+  "author": "Nolan Lawson <nlawson@salesforce.com>"
 }
