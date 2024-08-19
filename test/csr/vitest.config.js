@@ -5,6 +5,7 @@ export default mergeConfig(
   baseConfig,
   {
     test: {
+      environment: 'jsdom',
       snapshotSerializers: ['@quatico/dom-serializer/bin/serializer']
     }
   }

@@ -5,15 +5,18 @@ exports[`basic ssr test suite > renders a button on the server side 1`] = `
   <template shadowrootmode="open">
     <span>
       <code>
-        Is this SSR?
+        __vite_ssr_import_meta__.env.SSR
       </code>
-      : false
+      : true
     </span>
     <span>
       <code>
-        Was I clicked?
+        typeof window
       </code>
-      : false
+      : undefined
+    </span>
+    <span>
+      Was I clicked?: false
     </span>
     <button class="pretty">
       I am a button!

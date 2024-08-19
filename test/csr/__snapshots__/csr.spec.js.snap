@@ -2,18 +2,21 @@
 
 exports[`basic test suite > clicks the button on the client side 1`] = `
 <x-button>
-    <template shadowroot="open">
+    <template shadowrootmode="open">
         <span>
             <code>
-                Is this SSR?
+                __vite_ssr_import_meta__.env.SSR
             </code>
             : false
         </span>
         <span>
             <code>
-                Was I clicked?
+                typeof window
             </code>
-            : true
+            : object
+        </span>
+        <span>
+            Was I clicked?: true
         </span>
         <button class="pretty">
             I am a button!
@@ -24,18 +27,21 @@ exports[`basic test suite > clicks the button on the client side 1`] = `
 
 exports[`basic test suite > renders a button on the client side 1`] = `
 <x-button>
-    <template shadowroot="open">
+    <template shadowrootmode="open">
         <span>
             <code>
-                Is this SSR?
+                __vite_ssr_import_meta__.env.SSR
             </code>
             : false
         </span>
         <span>
             <code>
-                Was I clicked?
+                typeof window
             </code>
-            : false
+            : object
+        </span>
+        <span>
+            Was I clicked?: false
         </span>
         <button class="pretty">
             I am a button!

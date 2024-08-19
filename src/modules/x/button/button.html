@@ -1,5 +1,6 @@
 <template>
-    <span><code>Is this SSR?</code>: {ssr}</span>
-    <span><code>Was I clicked?</code>: {clicked}</span>
+    <span><code>import.meta.env.SSR</code>: {ssr}</span>
+    <span><code>typeof window</code>: {typeofWindow}</span>
+    <span>Was I clicked?: {clicked}</span>
     <button class="pretty" onclick={onClick}>{text}</button>
 </template>

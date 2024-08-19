@@ -8,9 +8,8 @@
     "test": "vitest --coverage"
   },
   "devDependencies": {
-    "@quatico/dom-serializer": "^0.6.2",
+    "@quatico/dom-serializer": "^0.6.3",
     "@vitest/coverage-v8": "^2.0.5",
-    "@vitest/ui": "^2.0.5",
     "jest-serializer-html": "^7.1.0",
     "jsdom": "^24.1.1",
     "lwc": "^7.2.1",

@@ -1,5 +1,6 @@
-import XButton from 'x/button'
 import { createElement } from 'lwc'
+import { describe, it, expect } from 'vitest'
+import XButton from 'x/button'
 
 describe('basic test suite', () => {
   it('renders a button on the client side', async () => {

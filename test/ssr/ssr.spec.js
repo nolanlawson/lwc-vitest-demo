@@ -1,5 +1,6 @@
-import XButton from 'x/button'
 import { renderComponent } from '@lwc/engine-server'
+import { describe, it, expect } from 'vitest'
+import XButton from 'x/button'
 
 describe('basic ssr test suite', () => {
   it('renders a button on the server side', () => {
