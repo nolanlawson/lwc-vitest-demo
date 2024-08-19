@@ -4,10 +4,7 @@ exports[`basic ssr test suite > renders a button on the server side 1`] = `
 <x-button>
   <template shadowrootmode="open">
     <span>
-      <code>
-        __vite_ssr_import_meta__.env.SSR
-      </code>
-      : true
+      Looks like an SSR environment?: true
     </span>
     <span>
       <code>

@@ -4,10 +4,7 @@ exports[`basic test suite > clicks the button on the client side 1`] = `
 <x-button>
     <template shadowrootmode="open">
         <span>
-            <code>
-                __vite_ssr_import_meta__.env.SSR
-            </code>
-            : false
+            Looks like an SSR environment?: false
         </span>
         <span>
             <code>
@@ -29,10 +26,7 @@ exports[`basic test suite > renders a button on the client side 1`] = `
 <x-button>
     <template shadowrootmode="open">
         <span>
-            <code>
-                __vite_ssr_import_meta__.env.SSR
-            </code>
-            : false
+            Looks like an SSR environment?: false
         </span>
         <span>
             <code>
